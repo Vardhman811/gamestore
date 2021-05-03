@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./images/lightbulb.png);
+  background-color: burlywood;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+
+.set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 87px;
+}
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0 30px;
+  color: rgb(187, 20, 81);
+  font-weight: 800;
+}
+
+.score div {
+  padding: 2px 5px;
+}
+
+.score #result {
+  color: rgb(187, 20, 81);
+  background-color: cornsilk;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.si {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  border-radius: 20px;
+  border: 5px solid;
+  border-left-color: crimson;
+  border-right-color: crimson;
+  background-color: rgb(255, 255, 255);
+  color: rgb(73, 72, 72);
+}
